@@ -16,9 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".HandlerWorkDemo"
-            android:launchMode="singleInstance" />
+        <activity android:name=".HandlerWorkDemo" />
+        <activity android:name=".WeakHandlerActivity" />
+        <activity android:name=".WeaKHandlerCallbackActivity" />
     </application>
 
 </manifest>

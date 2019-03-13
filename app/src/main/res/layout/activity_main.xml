@@ -14,5 +14,17 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="WorkDemo" />
+    <Button
+        android:id="@+id/weakdemo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="WeakDemo" />
+    <Button
+        android:id="@+id/weakcallbackdemo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="WeakCallBackDemo" />
 
 </LinearLayout>
