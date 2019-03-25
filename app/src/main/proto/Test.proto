@@ -1,0 +1,7 @@
+syntax = "proto2";
+option java_package="demo.lanch.com.handlerdemo";
+message SearchRequest {
+    required string query = 1;
+    optional int32 page_number = 2;
+    optional int32 result_per_page = 3;
+}
